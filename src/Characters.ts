@@ -1,4 +1,6 @@
-export type chars = [
+import {RAndMChar} from "./types/RickAndMortyChar.ts";
+
+export const chars:RAndMChar[] = [
     {
         "id": 1,
         "name": "Rick Sanchez",
